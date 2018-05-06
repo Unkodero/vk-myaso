@@ -1,5 +1,5 @@
 #!/bin/bash
 
-screen -X -s vk-myaso quit
-npm update
-screen -dmS vk-myaso npm start
+sudo -u ubuntu screen -X -s vk-myaso quit
+sudo -u ubuntu npm update
+sudo -u ubuntu screen -dmS vk-myaso npm start
